@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSModManager", "FSModManager.csproj", "{B7B82154-D495-4C0C-998F-C3B6A87BC4BE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{5872170D-CDF1-446E-B66E-A4DB0E7AE753}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FSModManager", "App\FSModManager.csproj", "{A4D8E0A8-9701-4304-833E-46B75A992E9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameDetection", "GameDetection\GameDetection.csproj", "{062CAC1A-A7F1-4827-AF51-8C8CAC28C5EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +15,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B7B82154-D495-4C0C-998F-C3B6A87BC4BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B7B82154-D495-4C0C-998F-C3B6A87BC4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B7B82154-D495-4C0C-998F-C3B6A87BC4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B7B82154-D495-4C0C-998F-C3B6A87BC4BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D8E0A8-9701-4304-833E-46B75A992E9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D8E0A8-9701-4304-833E-46B75A992E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D8E0A8-9701-4304-833E-46B75A992E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D8E0A8-9701-4304-833E-46B75A992E9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{062CAC1A-A7F1-4827-AF51-8C8CAC28C5EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062CAC1A-A7F1-4827-AF51-8C8CAC28C5EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062CAC1A-A7F1-4827-AF51-8C8CAC28C5EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062CAC1A-A7F1-4827-AF51-8C8CAC28C5EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4D8E0A8-9701-4304-833E-46B75A992E9E} = {5872170D-CDF1-446E-B66E-A4DB0E7AE753}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F48D9E3B-7DF3-417E-84EA-D3FBEA9CD738}
