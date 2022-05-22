@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSModManager", "FSModManager.csproj", "{B7B82154-D495-4C0C-998F-C3B6A87BC4BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7B82154-D495-4C0C-998F-C3B6A87BC4BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B82154-D495-4C0C-998F-C3B6A87BC4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7B82154-D495-4C0C-998F-C3B6A87BC4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B82154-D495-4C0C-998F-C3B6A87BC4BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F48D9E3B-7DF3-417E-84EA-D3FBEA9CD738}
+	EndGlobalSection
+EndGlobal
